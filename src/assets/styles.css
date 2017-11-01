@@ -1,0 +1,149 @@
+html, body{
+	margin: 0px;
+	height: 100%;
+	background: #eee;
+}
+
+.head-title{
+	font-size:20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	display: block;
+}
+
+.central {
+	height: 100%;
+	overflow-y:scroll;
+}
+
+.seguro{
+	margin-top: -40px;
+	background: black;
+	width: 100%;
+	position: absolute;
+	height: 40px;
+}
+
+.active{
+	border-bottom: 4px solid #84BD00;
+	padding-bottom: 4px;
+}
+
+.navigation{
+	text-align: center;
+	color:white;
+	background: #1C1C1F;
+	height: 100%;
+}
+
+.navigation a{
+	color: #ddd;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	text-decoration: none;
+}
+
+.navigation a:hover{
+	color: white;
+}
+
+.navigation .glyphicon{
+	font-size: 25px;
+	display: block;
+	width: 100 px;
+}
+
+#user_logged{
+	text-decoration: center;
+	background: #1C1C1F;
+	position: absolute;
+	bottom: 0px;
+	border-top: 1px solid #444;
+	width: 75%;
+}
+
+#user_logged .user-image{
+	background: #eee;
+	border-radius: 100px;
+	height: 57px;
+	width: 57px;
+	margin: 0px auto;
+	margin-top: 15px;
+	overflow: hidden;
+}
+
+#user_logged .user-image img{
+	width: 57px;
+}
+
+
+.btn-logout{
+	cursor: pointer;
+}
+
+.artist_image_for_edit img{
+	width: 150 px;
+
+}
+
+.artist-list {
+	margin: 0px;
+	padding: px;
+	margin-top: 30px;
+	list-style: none;
+}
+
+.artist-item {
+	width: 30%;
+	margin: 0px;
+	padding: 0px;
+	height: 317px;
+	margin-left: 20px;
+	margin-top: 80px;
+	margin-bottom: 20 px;
+	
+}
+
+.artist-item .artist-image {
+	margin: 0px;
+	height: 300px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.artist-item .artist-image img{ 
+	width: 100%;
+}
+
+
+.artist-item .artist-name  {
+	color: white;
+	padding: 10px;
+	background: #222326;
+}
+
+.artist-item .artist-name a {
+	color: white;
+}
+
+.buttons {
+	padding: 10px;
+	background: #222326;
+	overflow: hidden;
+}
+
+ #artist-head-card .image{
+ 	width: 150 px;
+ 	height: 120 px;
+ 	overflow: hidden;
+ 	float: left;
+ 	margin-right: 30px;
+ }
+
+
+
+ #artist-head-card .image img{
+ 	width: 130 px;
+ }
